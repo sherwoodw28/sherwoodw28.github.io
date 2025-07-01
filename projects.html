@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Metadata, Fonts and Stylesheet -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    
+    <title>Projects</title>
+</head>
+
+<!-- Body -->
+<body>
+    
+    <!-- Navigation Bar -->
+    <div id="navbar-container">
+        <nav id="navbar">
+            <ul>
+                <li><a href="projects.html">PROJECTS</a></li>
+                
+                <li><a href="index.html">
+                    <img src="assets/img/logo.png" width="100px" id="sherwood-hyperlink"></img>
+                </a></li>
+
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </nav>    
+    </div>
+    
+    <!-- Title -->
+    <h1 style="text-align: center; font-size: 55px; margin-bottom: 10px; font-weight: 1000;">PROJECTS</h1>
+
+
+    <!-- Main Container for all the projects, has a list of "project-item" DIVS -->
+    <div id="galleryOverlay" class="gallery-overlay">
+        
+        <span id="closeGallery" class="close">&times;</span>
+        
+        <div class="gallery-content">
+
+            <button id="prev" class="arrow left">&#10094;</button>
+
+            <img id="galleryImage" src="" alt="Gallery Image" style="display:none;">
+
+            <video id="galleryVideo" controls style="display:none;">
+                <source id="videoSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <button id="next" class="arrow right">&#10095;</button>
+        </div>
+
+    </div>
+        
+    
+    <div id="projects-container">
+        <ol>
+            <!-- Beginning of Item - The Curve Expenses -->
+            <li>
+                <div id="project-item">   
+                    <div id="image-and-title">
+                        
+                        <img id="main-project-image" src="assets/img/project-imgs/curve-expenses-project/logo.png">
+                        <h4 id="project-title">THE CURVE EXPENSES</h4> 
+                    
+                    </div>
+
+                    <div id="item-information">
+                        <p>
+                            An Online Web-Based Portal Designed for Submitting and Managing Work Expenses and Reimbursement for a Business.
+                            Designed Specifically for Software Development Company, The Curve, During Work Experience Week 1st-5th July 2024.
+                            This was developed as a client brief with the intention of improving on the previous system. Some features include a simple interactive visual interface for approving or declining forms and an email notification system to improve response times from Line Managers when an employee requests the form.</p>
+                    </div>
+
+                    <div id="specs-information">
+                        <ul>
+                            <li>July 2024</li>
+                            <li>Used : PHP, HTML, CSS, and MySQL</li>
+                            <li>Developed with a team, utilizing popular collaboration tools such as Slack and Git</li>
+                            <li>Basic understanding of server-side web technologies, particularly PHP</li>
+                            <li>Email Notification System</li>
+                            <li>Interactive UI</li>
+                            <li>Line Manager Selection - Notifications sent to a specific account</li>
+                        </ul>
+                        
+                    </div>
+
+                    <div id="button-menu">
+                        <ul id="button-list">
+                            <li>
+                                <button class="openGallery" data-gallery="gallery1">VIEW IMAGES</button>
+                            </li>
+
+                            <li>
+                                <button class="source-button" onclick=" window.open('https:/www.github.com/sherwoodw28/TheCurveExpenses')">VIEW ON GITHUB</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <!-- MUSIC PLAYER MOD DIV -->
+            <li>
+                <div id="project-item">
+                    
+                    <div id="image-and-title">
+                        
+                        <img id="main-project-image" src="assets/img/project-imgs/ow-music-player/owmp-logo.png">
+                        <h4 id="project-title">MUSIC PLAYER MOD</h4> 
+                    
+                    </div>
+
+                    <div id="item-information">
+                        <p>This gameplay modification for the video game "Outer Wilds" by Mobius Digital allows the player to play music of their own choosing from speakers inside the spaceship. The audio is loaded from MP3 files stored in the mod's file directory, and when played, can be heard from within the ship, letting players jam out while traveling from planet to planet or leave it playing at high volumes on a planet's surface to enjoy while solving the mysteries of the solar system. This modification utilizes a variety of pre-existing in-game functions, as well as tools developed by the Outer Wilds Modding Community.</p>
+                    </div>
+
+                    <div id="specs-information">
+                        <ul>
+                            <li>Jan 2022</li>
+                            <li>Used : C#, Unity Game Engine.</li>
+                            <li>Developed with assistance from Outer Wilds Modding Community</li>
+                            <li>All Credits for the base game and all its content goes to Mobius Digital</li>
+                            <li><a style="text-decoration: none; color: aqua;" href="https://outerwildsmods.com/">Click here to visit Outer Wilds Modding Community!</a></li>
+                            <li><a style="text-decoration: none; color: aqua;" href="https://www.mobiusdigitalgames.com/">Click here to visit Mobius Digital Website!</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <div id="button-menu">
+                        <ul id="button-list">
+                            <li>
+                                <button class="openGallery" data-gallery="gallery2">VIEW IMAGES</button>
+                            </li>
+
+                            <li>
+                                <button class="source-button" onclick=" window.open('https:/www.github.com/sherwoodw28/outerwildsmusicplayer')">VIEW ON GITHUB</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+
+            <!-- REMOTE AUTOPILOT MOD DIV -->
+            <li>
+                <div id="project-item">
+                    
+                    <div id="image-and-title">
+                        
+                        <img id="main-project-image" src="assets/img/project-imgs/ow-remote-autopilot/remote-autopilot-logo.png">
+                        <h4 id="project-title">REMOTE AUTOPILOT MOD</h4> 
+                    
+                    </div>
+
+                    <div id="item-information">
+                        <p>This gameplay modification for the video game "Outer Wilds" by Mobius Digital allows the player to remotely pilot their spaceship to a selected location within the Solar System. The player can select one of the planets using the in-game methods and then remotely activate the feature to navigate the spaceship towards the desired location. This modification leverages a variety of pre-existing in-game functions, as well as tools developed by the Outer Wilds Modding Community.</p>
+                    </div>
+
+                    <div id="specs-information">
+                        <ul>
+                            <li>July 2022</li>
+                            <li>Used : C#, Unity Game Engine.</li>
+                            <li>Easy-to-use interface, clear notifications in-game at important events</li>
+                            <li>Developed with assistance from Outer Wilds Modding Community</li>
+                            <li>All Credits for the base game and all its content goes to Mobius Digital</li>
+                            <li><a style="text-decoration: none; color: aqua;" href="https://outerwildsmods.com/">Click here to visit Outer Wilds Modding Community!</a></li>
+                            <li><a style="text-decoration: none; color: aqua;" href="https://www.mobiusdigitalgames.com/">Click here to visit Mobius Digital Website!</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <div id="button-menu">
+                        <ul id="button-list">
+                            <li>
+                                <button id="demo-button">VIEW DEMO</button>
+                            </li>
+
+                            <li>
+                                <button class="source-button" onclick=" window.open('https:/www.github.com/sherwoodw28/remoteautopilot')">VIEW ON GITHUB</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+
+        </ol>
+    
+    
+    </div>
+
+    <script src="assets/scripts/projects.js"></script>
+</body>
+</html>
